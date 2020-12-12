@@ -12,7 +12,7 @@
 
 </head>
 
-<body>
+<body class="footer-fijo">
 
     <header class="header">
         <img src="/img/logo.png" alt="logo">
@@ -26,17 +26,23 @@
 
 
     <main class="contenedor">
-        <h1>Sobre Nosotros</h1>
+        <h1>React JS</h1>
         <div class="contenedor-informacion">
-            <div class="texto-nosotros">
+            <img src="img/3.jpg" alt="Imagen Producto" class="imagen-producto">
+            <div class="contenido">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In iure, quas corporis assumenda eligendi nisi dignissimos esse laudantium, totam reprehenderit nesciunt, illum provident deserunt obcaecati sit? Qui voluptatem numquam in. Lorem ipsum dolor sit
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In iure, quas corporis assumenda eligendi nisi dignissimos esse laudantium, totam reprehenderit nesciunt, illum provident deserunt obcaecati sit? Qui voluptatem numquam in.
                 </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aut veritatis, placeat nobis quos praesentium et reiciendis! Quod, corporis. Ipsum eligendi ullam, fuga possimus repellat deserunt cum doloribus aspernatur nam.
-                </p>
+                <form class="formulario-pedido">
+                    <select class="talla campo">
+                        <option value="C">Chica</option>
+                        <option value="M">Mediana</option>
+                        <option value="G">Grande</option>
+                    </select>
+                    <input type="number" min="1" class="cantidad campo">
+                    <input type="submit" class="boton" value="Agregar al Carrito">
+                </form>
             </div>
-            <img src="img/nosotros.jpg" alt="imagen nosotros">
 
         </div>
     </main>
